@@ -866,6 +866,7 @@ li {
 .services {
     background-color: #242424;
     padding-top: 50px;
+    margin-bottom: -20px;
 }
 
 .services .boxes{
@@ -1504,6 +1505,14 @@ li {
         font-size: 20px;
         font-weight: 500;
         margin-bottom: 10px;
+    }
+    section .title span {
+        color: #242424;
+        font-size: 30px;
+        font-weight: 600;
+        position: relative;
+        padding-bottom: 8px;
+        margin-top: 25px;
     }
     .contact-container {
         padding: 20px;
