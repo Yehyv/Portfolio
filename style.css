@@ -159,6 +159,7 @@ body{
   position: absolute;
   top: 50%;
   left: 0;
+  right:0;
   display: block;
   width: 100%;
   padding: 0;
@@ -218,6 +219,7 @@ body{
   margin-top: -1vh;
   width: 0;
   left: 0;
+  right:0;
   background-color: #353746;
   opacity: 0.8;
   transition: width 250ms linear;
@@ -251,9 +253,9 @@ body{
 
 
 .logo {
-  position: absolute;
+  position: relative;
   top: 50px;
-  left: 50px;
+  left: 0;
   display: block;
   z-index: 11;
   transition: all 250ms linear;
@@ -836,7 +838,7 @@ section .button button:hover{
 
 h3 {
     font-size: 1.7rem;
-    color: #D79922;
+    color: #242424;
     margin-bottom: 10px;
 }
 
@@ -1401,8 +1403,6 @@ li {
         padding-right: 0 !important;
         flex-direction: column;
         align-items: center;
-        padding-top: inherit;
-        margin-inline: auto;
     }
     .home-content {
         width: 100%;        
@@ -1459,7 +1459,7 @@ li {
         background-color: #d5d8cf;
         position: absolute;
         width: calc(100% + 8px);
-        height: 50%;
+        height: 60%;
         border-left: 1px solid black;
         right: -8;
         animation: cursor 0.6s infinite;
